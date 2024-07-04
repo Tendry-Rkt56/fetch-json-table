@@ -36,17 +36,17 @@ search.addEventListener('input', async () => {
      let timeOut;
      clearTimeout(timeOut)
      timeOut = setTimeout(async () => {
-          if (search.value !== "") {
+          tbody.innerHTML = ''
+          if (search.value.length >  2) {
                const value = search.value
-               tbody.innerHTML = ''
-               if (Array.isArray(data)) {
+               if (Array.isArray(data) && data.length > 0) {
                     append(data, value, tbody)
-               }     
+               }   
           }
           else {
                populateTable(data, tbody)
           }
-     }, 100)
+     }, 200)
 })
 
 
@@ -60,7 +60,15 @@ function append (data, valeur, container)
 {
      let filterData = []
      filterData = data.filter(element => element.nom.toLowerCase().includes(valeur.toLowerCase()) || element.prenom.toLowerCase().includes(valeur.toLowerCase()))
-     populateTable(filterData, container) 
+     if (filterData.length > 0) {
+          populateTable(filterData, container) 
+     }
+     else {
+          const tr = document.createElement('tr')
+          const td = createTd('Pas de correspondance', {'colspan' : 10})
+          tr.appendChild(td)
+          container.appendChild(tr)
+     }
 }
 
 /**
