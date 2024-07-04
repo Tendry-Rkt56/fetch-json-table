@@ -39,16 +39,16 @@ search.addEventListener('input', async () => {
      clearTimeout(timeOut)
      timeOut = setTimeout(async () => {
           tbody.innerHTML = ''
-          if (search.value.length >  2) {
+          if (search.value !== "") {
                const value = search.value
-               if (Array.isArray(data) && data.length > 0) {
+               if (Array.isArray(data)) {
                     append(data, value, tbody)
                }   
           }
           else {
                populateTable(data, tbody)
           }
-     }, 200)
+     }, 100)
 })
 
 
