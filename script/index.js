@@ -1,8 +1,10 @@
+
 import { recupData } from "./data.js"
 
 const search = document.getElementById("search")
 const form = document.getElementById('form')
 const tbody = document.querySelector('.tbody')
+const loader = document.querySelector('.loader')
 
 form.addEventListener('submit', (e) => {
      e.preventDefault()
@@ -32,7 +34,7 @@ function populateTable (data, container)
 
 
 search.addEventListener('input', async () => {
-     const data = await recupData()
+     const data = await recupData(loader)
      let timeOut;
      clearTimeout(timeOut)
      timeOut = setTimeout(async () => {
@@ -92,7 +94,7 @@ function createTd (valeur, options = {})
  */
 (async function appendData ()
 {
-     const data = await recupData()
+     const data = await recupData(loader)
      if (Array.isArray(data)) {
           populateTable(data, tbody)
      }
