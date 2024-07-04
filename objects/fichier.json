@@ -1,0 +1,122 @@
+[
+  {
+    "nom": "Dupont",
+    "prenom": "Jean",
+    "age": 45,
+    "poste": "Développeur"
+  },
+  {
+    "nom": "Martin",
+    "prenom": "Claire",
+    "age": 34,
+    "poste": "Développeur"
+  },
+  {
+    "nom": "Durand",
+    "prenom": "Pierre",
+    "age": 29,
+    "poste": "Développeur"
+  },
+  {
+    "nom": "Petit",
+    "prenom": "Lucie",
+    "age": 42,
+    "poste": "Développeur"
+  },
+  {
+    "nom": "Lemoine",
+    "prenom": "Sophie",
+    "age": 38,
+    "poste": "Responsable RH"
+  },
+  {
+    "nom": "Moreau",
+    "prenom": "Vincent",
+    "age": 31,
+    "poste": "Responsable RH"
+  },
+  {
+    "nom": "Rousseau",
+    "prenom": "Alice",
+    "age": 27,
+    "poste": "Responsable RH"
+  },
+  {
+    "nom": "Lambert",
+    "prenom": "Paul",
+    "age": 50,
+    "poste": "Responsable RH"
+  },
+  {
+    "nom": "Fournier",
+    "prenom": "Julie",
+    "age": 33,
+    "poste": "Comptable"
+  },
+  {
+    "nom": "Girard",
+    "prenom": "Thomas",
+    "age": 26,
+    "poste": "Comptable"
+  },
+  {
+    "nom": "Blanc",
+    "prenom": "Emilie",
+    "age": 40,
+    "poste": "Comptable"
+  },
+  {
+    "nom": "Gauthier",
+    "prenom": "Louis",
+    "age": 36,
+    "poste": "Comptable"
+  },
+  {
+    "nom": "Perrin",
+    "prenom": "Camille",
+    "age": 28,
+    "poste": "Chef de projet"
+  },
+  {
+    "nom": "Marchand",
+    "prenom": "Adrien",
+    "age": 41,
+    "poste": "Chef de projet"
+  },
+  {
+    "nom": "Bertrand",
+    "prenom": "Sarah",
+    "age": 37,
+    "poste": "Chef de projet"
+  },
+  {
+    "nom": "Legrand",
+    "prenom": "Hugo",
+    "age": 32,
+    "poste": "Chef de projet"
+  },
+  {
+    "nom": "Vidal",
+    "prenom": "Chloe",
+    "age": 30,
+    "poste": "Analyste financier"
+  },
+  {
+    "nom": "Moulin",
+    "prenom": "Antoine",
+    "age": 44,
+    "poste": "Analyste financier"
+  },
+  {
+    "nom": "Boucher",
+    "prenom": "Laura",
+    "age": 35,
+    "poste": "Analyste financier"
+  },
+  {
+    "nom": "Robin",
+    "prenom": "Maxime",
+    "age": 39,
+    "poste": "Analyste financier"
+  }
+]

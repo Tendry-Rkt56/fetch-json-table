@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="styles/bootstrap.min.css">
+     <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+     <div class="containers container d-flex align-items-center justify-content-center flex-column gap-3">
+          <form action="" class="d-flex align-items-center justify-content-center flex-row gap-5">
+               <input type="text" placeholder="Rechercher..." class="form-control" id="search">
+               <select class="form-select" id="select">
+                    <option value="1">Développeur</option>
+                    <option value="2">Responsable RH</option>
+                    <option value="3">Comptable</option>
+               </select>
+          </form>
+          <table class="my-5 container table table-striped">
+               <thead class="table-dark">
+                    <tr>
+                         <th>Nom</th>
+                         <th>Prénom</th>
+                         <th>Age</th>
+                         <th>Poste</th>
+                         <th></th>
+                    </tr>
+               </thead>
+               <tbody class="tbody"></tbody>
+          </table>
+     </div>
+
+     <script src="script/index.js" type="module"></script>
+</body>
+</html>
