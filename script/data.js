@@ -3,7 +3,7 @@ export async function recupData (loader)
 {
      try {
           await new Promise(resolve => setTimeout(resolve, 500))
-          const response = await fetch('../objects/fichier.json')
+          const response = await fetch('../object/fichier.json')
           if (response.ok) {
                const result = await response.json()
                return result
